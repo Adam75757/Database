@@ -1,5 +1,4 @@
-import Model from "../models/user.model.js"
-let {UserModel} = Model
+import UserModel from "../models/user.model.js"
 class ServiceUser{
     constructor(){}
 

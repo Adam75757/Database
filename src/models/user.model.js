@@ -12,18 +12,10 @@ let UserModel = model("student",UserScheme)
 
 
 
-let PostScheme = new Schema({
-    body:{type:String,required:true},
-    title:{type:String,required:true},
-    user_id:{type:Types.ObjectId,ref:"student"}
-
-},{strict:true})
-
-let PostModel = model("posts",PostScheme)
 
 
 
-export default {UserModel,PostModel}
+export default UserModel
 
 
      
