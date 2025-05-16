@@ -1,4 +1,5 @@
-import PostModel from "../models/user.model.js"
+import Model from "../models/user.model.js"
+let{PostModel} = Model
 class PostUser{
     constructor(){}
 

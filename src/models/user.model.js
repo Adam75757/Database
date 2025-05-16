@@ -23,5 +23,7 @@ let PostModel = model("posts",PostScheme)
 
 
 
-export default { PostModel,UserModel}    
+export default {UserModel,PostModel}
+
+
      
